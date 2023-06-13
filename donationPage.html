@@ -6,11 +6,60 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 
     <title>DonationPage</title>
   </head>
   <body>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-new">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="font-weight: bolder; font-size: 24px; color: rgb(238, 231, 231);">Wildfire Relief Funds</a>
+        
+        <div class="justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="index.html" style="color: rgb(238, 231, 231);" >Home</a>
+            <a class="nav-link" href="donationPage.html" style="color: rgb(238, 231, 231);">Donation</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <!--
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand navbar-brand-new" href="#">Wildfire Relief Funds</a>
+      <div id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="donationPage.html">Donation</a>
+          </li>
+        </ul>
+        </div>
+    </nav>
+  -->
+  
     <h1>Donation Page</h1>
+
+    <h2> The money donated here will be given to the Canadian Red Cross in an effort to support their efforts 
+         reducing wildfires around Canada. Each dollar donated will be sent towards families displaced by the fires. Other donations will also be
+         made to organizations like Donate a Mask, an organization that provides people masks for protection against the hazardous smoke, and the Odawa Native Friendship
+         Center, a non-profit organization that aims to help the diplaced indigenous community.
+    </h2>
+    
+    <form action="donation_select"></form>
+      <button type="$1">$1</button>
+      <button type="$5">$5</button>
+      <button type="$10">$10</button>
+      <button type="$20">$20</button>
+      <button type="$100">$100</button>
+
+    
+      <label for="fname">Other: </label>
+      <input type="text" id="input" name="input"><br><br>
+      <input type="submit" value="Submit">
+    </form>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
