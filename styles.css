@@ -1,0 +1,14 @@
+.navbar-new{
+    background-color: rgb(50,50,50); 
+    font-family: Georgia; 
+    font-weight: bolder; 
+    font-size: 24px;
+    color: rgb(238, 231, 231);
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
