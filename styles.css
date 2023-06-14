@@ -12,3 +12,17 @@
     left:50%;
     transform: translate(-50%, -50%);
 }
+
+.btn-rounded{
+    border-radius: 12px;
+    margin-left: 12px;
+    width: 120px;
+    height: 60px;
+    font-size: 20px;
+    font-weight:500;
+    color:rgb(238, 231, 231);
+}
+
+.btn-dark{
+    background-color: rgb(60,60,60);
+}
